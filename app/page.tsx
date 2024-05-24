@@ -3,7 +3,6 @@ import Logo from "../assets/logo.svg";
 import LandingImg from "../assets/main.svg";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import  MagicButton  from "@/components/ui/MagicButton";
 
 
 import {GlobeDemo} from "@/components/ui/GlobeDemo";
