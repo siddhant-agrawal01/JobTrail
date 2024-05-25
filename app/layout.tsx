@@ -21,7 +21,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "JobTrail",
   description:
-    "Job application tackingraj karega khalsa system for job seekers",
+    "Job application tracking system for job seekers",
 };
 
 export default function RootLayout({
@@ -46,7 +46,7 @@ export default function RootLayout({
           <Providers>
             {/* <HeroHighlight> */}
 
-            <div className="h-screen w-full dark:bg-black-100 bg-grid-black/[0.2] absolute top-0 left-0 flex items-center justify-center">
+            <div className="h-screen w-full dark:bg-black-100 bg-grid-black/[0.4] absolute top-0 left-0 flex items-center justify-center">
               <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100"></div>
 
               {children}
