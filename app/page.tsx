@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Logo from "../assets/logo.svg";
-import LandingImg from "../assets/main.svg";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -28,7 +27,6 @@ export default function Home() {
             <Link href="/add-job">Get Started</Link>
           </Button>
         </div>
-        {/* <Image src={LandingImg} alt="landing" className="hidden lg:block " /> */}
         <GlobeDemo />
        
       </section>
